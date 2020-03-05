@@ -1,0 +1,21 @@
+{
+    "name": "@slack/snapshot-bot",
+    "private": true,
+    "description": "A sample slack snapshot bot app",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 0"
+    },
+    "dependencies": {
+      "@aoberoi/passport-slack": "^1.0.5",
+      "@slack/events-api": "^2.2.0",
+      "@slack/web-api": "^5.0.0",
+      "dotenv": "^4.0.0",
+      "express": "^4.16.3",
+      "ngrok": "^3.2.7",
+      "node-localstorage": "^1.3.1",
+      "node-slack-upload": "^2.0.0",
+      "passport": "^0.3.2",
+      "puppeteer": "^2.1.1"
+    }
+  }
